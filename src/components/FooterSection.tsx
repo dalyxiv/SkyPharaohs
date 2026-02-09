@@ -1,17 +1,15 @@
 import logoDark from "@/assets/logo-dark.png";
-
 const FooterSection = () => {
-  return (
-    <footer id="book" className="section-padding bg-card border-t border-border">
+  return <footer id="book" className="section-padding bg-card border-t border-border">
       <div className="max-w-4xl mx-auto text-center">
         <img src={logoDark} alt="Sky Pharaohs" className="h-24 mx-auto mb-10" />
 
         <div className="flex flex-wrap items-center justify-center gap-8 mb-12 font-body text-sm tracking-widest uppercase text-muted-foreground">
-          <a href="#" className="hover:text-primary transition-colors">Flight Packages</a>
+          <a href="#" className="hover:text-primary transition-colors">​Facebook</a>
           <span className="text-border hidden md:inline">|</span>
-          <a href="#" className="hover:text-primary transition-colors">Gift Cards</a>
+          <a href="#" className="hover:text-primary transition-colors">Instagram</a>
           <span className="text-border hidden md:inline">|</span>
-          <a href="#" className="hover:text-primary transition-colors">Pilot Bios</a>
+          <a href="#" className="hover:text-primary transition-colors">​tiktok</a>
           <span className="text-border hidden md:inline">|</span>
           <a href="#" className="hover:text-primary transition-colors">Contact</a>
         </div>
@@ -22,8 +20,6 @@ const FooterSection = () => {
           © 2026 Sky Pharaohs Aviation. All rights reserved.
         </p>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default FooterSection;
