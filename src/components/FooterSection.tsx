@@ -5,13 +5,13 @@ const FooterSection = () => {
         <img src={logoDark} alt="Sky Pharaohs" className="h-24 mx-auto mb-10" />
 
         <div className="flex flex-wrap items-center justify-center gap-8 mb-12 font-body text-sm tracking-widest uppercase text-muted-foreground">
-          <a href="#" className="hover:text-primary transition-colors">​Facebook</a>
+          <a className="hover:text-primary transition-colors" href="https://www.facebook.com/SkyPharaohs">​Facebook</a>
           <span className="text-border hidden md:inline">|</span>
-          <a href="#" className="hover:text-primary transition-colors">Instagram</a>
+          <a className="hover:text-primary transition-colors" href="https://www.instagram.com/SkyPharaohs">Instagram</a>
           <span className="text-border hidden md:inline">|</span>
-          <a href="#" className="hover:text-primary transition-colors">​tiktok</a>
+          <a className="hover:text-primary transition-colors" href="http://www.tiktok.com/@skypharaohs">​tiktok</a>
           <span className="text-border hidden md:inline">|</span>
-          <a href="#" className="hover:text-primary transition-colors">Contact</a>
+          <a className="hover:text-primary transition-colors" href="mailto: info@skypharaohs.com">​Email</a>
         </div>
 
         <div className="w-24 h-px bg-primary mx-auto mb-8" />
